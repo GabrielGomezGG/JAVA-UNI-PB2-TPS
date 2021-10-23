@@ -34,7 +34,6 @@ public class Usuario {
 	}
 
 	public void setTarea(Tarea tarea) {
-		// TODO Auto-generated method stub
 		if(!tieneTarea) {
 			tieneTarea = true;
 			this.tarea = tarea;
